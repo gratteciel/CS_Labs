@@ -299,7 +299,10 @@ namespace MDI_Assignement
 
         private void Exit_Button_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            if (MessageBox.Show("Do you want to close the form", "Exit Message", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
 
         private void GroupBox_All_Enter(object sender, EventArgs e)

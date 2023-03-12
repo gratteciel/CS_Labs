@@ -334,7 +334,7 @@ namespace MDI_Assignement
 				this.PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
 			}
 		}
-	}
+    }
 	
 	[global::System.Data.Linq.Mapping.TableAttribute(Name="dbo.Doctors")]
 	public partial class Doctors : INotifyPropertyChanging, INotifyPropertyChanged
