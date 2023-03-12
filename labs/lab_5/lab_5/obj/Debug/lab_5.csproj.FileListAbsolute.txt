@@ -1,0 +1,11 @@
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.csproj.AssemblyReference.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.csproj.SuggestedBindingRedirects.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.Properties.Resources.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.csproj.GenerateResource.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.csproj.CoreCompileInputs.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\bin\Debug\lab_5.exe.config
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\bin\Debug\lab_5.exe
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\bin\Debug\lab_5.pdb
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.Ex_1.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.exe
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_5\lab_5\obj\Debug\lab_5.pdb

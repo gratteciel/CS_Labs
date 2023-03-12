@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="School" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-26HSG19\SQLEXPRESS;Initial Catalog=School;Integrated Security=True" SettingsObjectName="Part_2.Properties.Settings" SettingsPropertyName="SchoolConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.cities" Member="cities">
+    <Type Name="cities">
+      <Column Name="Name" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

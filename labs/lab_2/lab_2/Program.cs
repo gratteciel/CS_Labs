@@ -130,5 +130,6 @@ namespace lab_2
             
             
         }
+        public static void Ex5()
     }
 }

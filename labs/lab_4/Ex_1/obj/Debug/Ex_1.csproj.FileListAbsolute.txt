@@ -1,0 +1,13 @@
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\bin\Debug\Ex_1.exe.config
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\bin\Debug\Ex_1.exe
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\bin\Debug\Ex_1.pdb
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.csproj.AssemblyReference.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.csproj.SuggestedBindingRedirects.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.Properties.Resources.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.csproj.GenerateResource.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.csproj.CoreCompileInputs.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.exe
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.pdb
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.Form1.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.Ex_2.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_4\Ex_1\obj\Debug\Ex_1.EX_3.resources

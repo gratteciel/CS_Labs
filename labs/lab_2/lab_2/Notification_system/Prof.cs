@@ -5,7 +5,6 @@ namespace lab_2.Notification_system;
 public class Prof
 {
     private string _fullnameProf;
-
     public Prof(string fullnameProf)
     {
         _fullnameProf = fullnameProf;
@@ -15,7 +14,7 @@ public class Prof
         get => _fullnameProf;
         set => _fullnameProf = value;
     }
-    
+
 
     public delegate void ReportDelegate(string studentName, double average);
 
