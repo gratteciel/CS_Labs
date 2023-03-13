@@ -44,25 +44,45 @@ namespace MDI_Assignement
             //check if not empty or if there is not just a whitespace
             if(!string.IsNullOrWhiteSpace(patientCode.Text))
             {
-                int patientID = int.Parse(patientCode.Text);
-                //select the appointments and the info we need
-                var appointments = from d in data.Appointments
-                                   where d.PatientId == patientID
-                                   orderby d.AppointmentDate descending
-                                   select new { d.AppointmentCode, d.AppointmentDate, d.AppointmentTime, d.DoctorId, d.PatientId };
+                if (int.TryParse(patientCode.Text, out int id))
+                {
+                    id = int.Parse(patientCode.Text); // we store the value
+                    var query = from p in data.Patient where p.PatientId == id select p;
+                    var result2 = query.FirstOrDefault();
+                    if (result2 != null)
+                    {
+                        int patientID = int.Parse(patientCode.Text);
+                        //select the appointments and the info we need
+                        var appointments = from d in data.Appointments
+                                           where d.PatientId == patientID
+                                           orderby d.AppointmentDate descending
+                                           select new { d.AppointmentCode, d.AppointmentDate, d.AppointmentTime, d.DoctorId, d.PatientId };
 
-                //list them as source of the dgv
-                dataGridView1.DataSource = appointments.ToList();
+                        //list them as source of the dgv
+                        dataGridView1.DataSource = appointments.ToList();
 
-                //get the info of the corresponding patient and display the values
-                var patientInfo = from d in data.Patient
-                                  where d.PatientId == patientID
-                                  select d;
-                var result = patientInfo.FirstOrDefault();
+                        //get the info of the corresponding patient and display the values
+                        var patientInfo = from d in data.Patient
+                                          where d.PatientId == patientID
+                                          select d;
+                        var result = patientInfo.FirstOrDefault();
 
-                patientName.Text = result.PatientName;
-                patientBirthDate.Text = result.BirthDate.ToString();
-                patientAddress.Text = result.PatientAddress;
+                        patientName.Text = result.PatientName;
+                        patientBirthDate.Text = result.BirthDate.ToString();
+                        patientAddress.Text = result.PatientAddress;
+
+                    }
+                    else
+                        MessageBox.Show("No Result");
+
+                }
+                else
+                {
+                    //The input is not a valid integer
+                    MessageBox.Show("Please enter a valid integer value.");
+
+                }
+                
             }
             else
             {

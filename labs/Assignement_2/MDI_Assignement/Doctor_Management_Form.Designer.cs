@@ -185,6 +185,7 @@
             // Tel_TextMasked
             // 
             this.Tel_TextMasked.Location = new System.Drawing.Point(105, 122);
+            this.Tel_TextMasked.Mask = "00 00 00 00 00 00";
             this.Tel_TextMasked.Name = "Tel_TextMasked";
             this.Tel_TextMasked.Size = new System.Drawing.Size(180, 20);
             this.Tel_TextMasked.TabIndex = 16;

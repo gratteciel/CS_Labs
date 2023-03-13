@@ -98,6 +98,7 @@ namespace MDI_Assignement
                             select d;
                 var result = query.FirstOrDefault();
 
+                //display the doctor's info 
                 if (result != null)
                 {
                     doctorName.Text = result.DoctorName;
@@ -111,6 +112,7 @@ namespace MDI_Assignement
                              select d;
                 var result2 = query2.FirstOrDefault();
 
+                //display the patient's info 
                 if (result2 != null)
                 {
                     patientName.Text = result2.PatientName;

@@ -61,8 +61,8 @@ namespace MDI_Assignement
         {
             if (Radio_Appointments.Checked)
             {
-                var query = from a in dataHospital.Appointments select a;
-
+                var query = from a in dataHospital.Appointments
+                            select new { a.AppointmentCode, a.AppointmentDate, a.AppointmentTime, a.DoctorId, a.PatientId };
                 DataGridView_Data.DataSource = query.ToList();
 
             }
