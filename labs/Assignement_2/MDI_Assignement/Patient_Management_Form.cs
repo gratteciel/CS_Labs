@@ -348,5 +348,10 @@ namespace MDI_Assignement
             }
 
         }
+
+        private void Patient_Management_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

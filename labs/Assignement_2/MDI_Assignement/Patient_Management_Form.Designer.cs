@@ -263,6 +263,7 @@
             this.Controls.Add(this.GroupBox_All);
             this.Name = "Patient_Management_Form";
             this.Text = "Patient_Management";
+            this.Load += new System.EventHandler(this.Patient_Management_Form_Load);
             this.Gender_GroupBox.ResumeLayout(false);
             this.Gender_GroupBox.PerformLayout();
             this.GroupBox_All.ResumeLayout(false);

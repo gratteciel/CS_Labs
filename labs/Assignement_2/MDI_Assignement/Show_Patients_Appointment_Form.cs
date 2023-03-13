@@ -210,39 +210,47 @@ namespace MDI_Assignement
             TimeSpan appointmentTime = TimeSpan.Parse(appTime.Text);
             int doctorId = (int)doctorCode.SelectedValue;
 
-            //we create an appointment that will update the one in the db
-            var appointment = data.Appointments.FirstOrDefault(a => a.AppointmentCode == appointmentCode);
-
-            //submit changes
-            if (appointment != null)
+            if (appointmentDate < DateTime.Today || appointmentTime < TimeSpan.FromHours(9) || appointmentTime >= TimeSpan.FromHours(20))
             {
-                appointment.AppointmentDate = appointmentDate;
-                appointment.AppointmentTime = appointmentTime;
-                appointment.DoctorId = doctorId;
-
-                data.SubmitChanges();
-
-                MessageBox.Show("Changes saved successfully.");
-
-                //update the data grid view, we can just take the initial code
-                int patientID = int.Parse(patientCode.Text);
-
-                var appointments = from d in data.Appointments
-                                   where d.PatientId == patientID
-                                   orderby d.AppointmentDate descending
-                                   select new { d.AppointmentCode, d.AppointmentDate, d.AppointmentTime, d.DoctorId, d.PatientId };
-
-                dataGridView1.DataSource = appointments.ToList();
-
-                var patientInfo = from d in data.Patient
-                                  where d.PatientId == patientID
-                                  select d;
-                var result = patientInfo.FirstOrDefault();
-
-                patientName.Text = result.PatientName;
-                patientBirthDate.Text = result.BirthDate.ToString();
-                patientAddress.Text = result.PatientAddress;
+                // The appointment is invalid
+                MessageBox.Show("The appointment is invalid, modify the date or the time please !");
             }
+            else
+            {
+                //we create an appointment that will update the one in the db
+                var appointment = data.Appointments.FirstOrDefault(a => a.AppointmentCode == appointmentCode);
+
+                //submit changes
+                if (appointment != null)
+                {
+                    appointment.AppointmentDate = appointmentDate;
+                    appointment.AppointmentTime = appointmentTime;
+                    appointment.DoctorId = doctorId;
+
+                    data.SubmitChanges();
+
+                    MessageBox.Show("Changes saved successfully.");
+
+                    //update the data grid view, we can just take the initial code
+                    int patientID = int.Parse(patientCode.Text);
+
+                    var appointments = from d in data.Appointments
+                                       where d.PatientId == patientID
+                                       orderby d.AppointmentDate descending
+                                       select new { d.AppointmentCode, d.AppointmentDate, d.AppointmentTime, d.DoctorId, d.PatientId };
+
+                    dataGridView1.DataSource = appointments.ToList();
+
+                    var patientInfo = from d in data.Patient
+                                      where d.PatientId == patientID
+                                      select d;
+                    var result = patientInfo.FirstOrDefault();
+
+                    patientName.Text = result.PatientName;
+                    patientBirthDate.Text = result.BirthDate.ToString();
+                    patientAddress.Text = result.PatientAddress;
+                }
+            }    
         }
 
         private void deleteButton_Click(object sender, EventArgs e)
