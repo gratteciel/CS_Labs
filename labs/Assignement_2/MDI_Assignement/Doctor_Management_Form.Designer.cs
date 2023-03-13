@@ -252,6 +252,7 @@
             this.Controls.Add(this.GroupBox_All);
             this.Name = "Doctor_Management_Form";
             this.Text = "Doctor_Management";
+            this.Load += new System.EventHandler(this.Doctor_Management_Form_Load);
             this.GroupBox_All.ResumeLayout(false);
             this.GroupBox_All.PerformLayout();
             this.ResumeLayout(false);

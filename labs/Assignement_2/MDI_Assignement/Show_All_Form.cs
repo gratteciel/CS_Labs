@@ -67,5 +67,10 @@ namespace MDI_Assignement
 
             }
         }
+
+        private void Show_All_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

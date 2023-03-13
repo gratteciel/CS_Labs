@@ -42,7 +42,7 @@ namespace MDI_Assignement
     #endregion
 		
 		public HospitalDataContext() : 
-				base(global::MDI_Assignement.Properties.Settings.Default.HospitalConnectionString, mappingSource)
+				base(global::MDI_Assignement.Properties.Settings.Default.HospitalConnectionString1, mappingSource)
 		{
 			OnCreated();
 		}

@@ -162,6 +162,9 @@ namespace MDI_Assignement
             }
         }
 
+        private void erezaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
+        }
     }
 }

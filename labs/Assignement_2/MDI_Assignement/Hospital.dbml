@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Hospital" Class="HospitalDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
-  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-26HSG19\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True" SettingsObjectName="MDI_Assignement.Properties.Settings" SettingsPropertyName="HospitalConnectionString" Provider="System.Data.SqlClient" />
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-8SIUP3K\SQLEXPRESS;Initial Catalog=Hospital;Integrated Security=True" SettingsObjectName="MDI_Assignement.Properties.Settings" SettingsPropertyName="HospitalConnectionString1" Provider="System.Data.SqlClient" />
   <Table Name="dbo.Appointments" Member="Appointments">
     <Type Name="Appointments">
       <Column Name="AppointmentCode" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />

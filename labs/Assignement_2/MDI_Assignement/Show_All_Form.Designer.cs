@@ -103,6 +103,7 @@
             this.Controls.Add(this.DataGridView_Data);
             this.Name = "Show_All_Form";
             this.Text = "Show_All";
+            this.Load += new System.EventHandler(this.Show_All_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView_Data)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

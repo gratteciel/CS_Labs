@@ -306,5 +306,10 @@ namespace MDI_Assignement
         {
 
         }
+
+        private void Doctor_Management_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
