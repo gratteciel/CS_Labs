@@ -29,7 +29,7 @@ namespace MDI_Assignement
                 ManagementFormDoctor = new Doctor_Management_Form(); //new instance 
                 ManagementFormDoctor.MdiParent = this;
                 ManagementFormDoctor.Show();
-
+                
                 ManagementFormDoctor.FormClosed += ManagementFormDoctor_FormClosed;
             }
             else

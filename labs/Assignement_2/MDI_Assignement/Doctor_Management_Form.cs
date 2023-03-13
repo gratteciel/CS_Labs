@@ -13,6 +13,17 @@ namespace MDI_Assignement
     public partial class Doctor_Management_Form : Form
     {
         private HospitalDataContext data = new HospitalDataContext();
+        public Doctor_Management_Form(int doctorId, string doctorName, string doctorTel, DateTime hiringDate, string doctorSpecialism)
+        {
+            InitializeComponent();
+            // use the passed data to populate the form controls or perform any necessary operations
+            Code_Text.Text = doctorId.ToString();
+            Name_Text.Text = doctorName;
+            Tel_TextMasked.Text = doctorTel;
+            HiringDate_Date.Value = hiringDate;
+            Speciality_ListBox.Text = doctorSpecialism;
+        }
+
         public Doctor_Management_Form()
         {
             InitializeComponent();

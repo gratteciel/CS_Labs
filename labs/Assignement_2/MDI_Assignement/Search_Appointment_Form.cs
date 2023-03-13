@@ -50,7 +50,13 @@ namespace MDI_Assignement
 
         private void cancelButton_Click(object sender, EventArgs e)
         {
+            dataGridView1.DataSource = null;
 
+            // clear all the data
+            doctorName.Text = "";
+            doctorSpeciality.Text = "";
+            patientBirthDate.Text = "";
+            patientName.Text = "";
         }
 
         private void doctorName_TextChanged(object sender, EventArgs e)
