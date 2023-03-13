@@ -35,7 +35,6 @@
             this.Doctor_GroupBox = new System.Windows.Forms.GroupBox();
             this.Doctor_Name_Text = new System.Windows.Forms.TextBox();
             this.Doctor_Speciality_Text = new System.Windows.Forms.TextBox();
-            this.Doctor_Code_ListBox = new System.Windows.Forms.ListBox();
             this.Doctor_Code_Label = new System.Windows.Forms.Label();
             this.Doctor_Name_Label = new System.Windows.Forms.Label();
             this.Doctor_Speciality_Label = new System.Windows.Forms.Label();
@@ -46,7 +45,6 @@
             this.Appointment_Date_Label = new System.Windows.Forms.Label();
             this.Patient_GroupBox = new System.Windows.Forms.GroupBox();
             this.Patient_Name_Text = new System.Windows.Forms.TextBox();
-            this.Patient_Code_ListBox = new System.Windows.Forms.ListBox();
             this.Gender_GroupBox = new System.Windows.Forms.GroupBox();
             this.M_Radio_Button = new System.Windows.Forms.RadioButton();
             this.F_radio_button = new System.Windows.Forms.RadioButton();
@@ -54,6 +52,8 @@
             this.Patient_Name_Label = new System.Windows.Forms.Label();
             this.Patient_Code_Label = new System.Windows.Forms.Label();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.Patient_ComboBox = new System.Windows.Forms.ComboBox();
+            this.Doctor_ComboBox = new System.Windows.Forms.ComboBox();
             this.GroupBox_All.SuspendLayout();
             this.Doctor_GroupBox.SuspendLayout();
             this.Appointment_GroupBox.SuspendLayout();
@@ -109,9 +109,9 @@
             // 
             // Doctor_GroupBox
             // 
+            this.Doctor_GroupBox.Controls.Add(this.Doctor_ComboBox);
             this.Doctor_GroupBox.Controls.Add(this.Doctor_Name_Text);
             this.Doctor_GroupBox.Controls.Add(this.Doctor_Speciality_Text);
-            this.Doctor_GroupBox.Controls.Add(this.Doctor_Code_ListBox);
             this.Doctor_GroupBox.Controls.Add(this.Doctor_Code_Label);
             this.Doctor_GroupBox.Controls.Add(this.Doctor_Name_Label);
             this.Doctor_GroupBox.Controls.Add(this.Doctor_Speciality_Label);
@@ -137,15 +137,6 @@
             this.Doctor_Speciality_Text.Size = new System.Drawing.Size(102, 20);
             this.Doctor_Speciality_Text.TabIndex = 41;
             this.Doctor_Speciality_Text.TextChanged += new System.EventHandler(this.Doctor_Speciality_Text_TextChanged);
-            // 
-            // Doctor_Code_ListBox
-            // 
-            this.Doctor_Code_ListBox.FormattingEnabled = true;
-            this.Doctor_Code_ListBox.Location = new System.Drawing.Point(111, 16);
-            this.Doctor_Code_ListBox.Name = "Doctor_Code_ListBox";
-            this.Doctor_Code_ListBox.Size = new System.Drawing.Size(103, 17);
-            this.Doctor_Code_ListBox.TabIndex = 39;
-            this.Doctor_Code_ListBox.SelectedIndexChanged += new System.EventHandler(this.Doctor_Code_ListBox_SelectedIndexChanged);
             // 
             // Doctor_Code_Label
             // 
@@ -228,8 +219,8 @@
             // 
             // Patient_GroupBox
             // 
+            this.Patient_GroupBox.Controls.Add(this.Patient_ComboBox);
             this.Patient_GroupBox.Controls.Add(this.Patient_Name_Text);
-            this.Patient_GroupBox.Controls.Add(this.Patient_Code_ListBox);
             this.Patient_GroupBox.Controls.Add(this.Gender_GroupBox);
             this.Patient_GroupBox.Controls.Add(this.label3);
             this.Patient_GroupBox.Controls.Add(this.Patient_Name_Label);
@@ -248,15 +239,6 @@
             this.Patient_Name_Text.Size = new System.Drawing.Size(102, 20);
             this.Patient_Name_Text.TabIndex = 39;
             this.Patient_Name_Text.TextChanged += new System.EventHandler(this.Patient_Name_Text_TextChanged);
-            // 
-            // Patient_Code_ListBox
-            // 
-            this.Patient_Code_ListBox.FormattingEnabled = true;
-            this.Patient_Code_ListBox.Location = new System.Drawing.Point(99, 19);
-            this.Patient_Code_ListBox.Name = "Patient_Code_ListBox";
-            this.Patient_Code_ListBox.Size = new System.Drawing.Size(103, 17);
-            this.Patient_Code_ListBox.TabIndex = 38;
-            this.Patient_Code_ListBox.SelectedIndexChanged += new System.EventHandler(this.Patient_Code_ListBox_SelectedIndexChanged);
             // 
             // Gender_GroupBox
             // 
@@ -323,11 +305,29 @@
             this.Patient_Code_Label.Text = "Patient Code";
             this.Patient_Code_Label.Click += new System.EventHandler(this.Patient_Code_Label_Click);
             // 
+            // Patient_ComboBox
+            // 
+            this.Patient_ComboBox.FormattingEnabled = true;
+            this.Patient_ComboBox.Location = new System.Drawing.Point(99, 19);
+            this.Patient_ComboBox.Name = "Patient_ComboBox";
+            this.Patient_ComboBox.Size = new System.Drawing.Size(121, 21);
+            this.Patient_ComboBox.TabIndex = 40;
+            this.Patient_ComboBox.SelectedIndexChanged += new System.EventHandler(this.Patient_ComboBox_SelectedIndexChanged);
+            // 
+            // Doctor_ComboBox
+            // 
+            this.Doctor_ComboBox.FormattingEnabled = true;
+            this.Doctor_ComboBox.Location = new System.Drawing.Point(112, 20);
+            this.Doctor_ComboBox.Name = "Doctor_ComboBox";
+            this.Doctor_ComboBox.Size = new System.Drawing.Size(121, 21);
+            this.Doctor_ComboBox.TabIndex = 42;
+            this.Doctor_ComboBox.SelectedIndexChanged += new System.EventHandler(this.Doctor_ComboBox_SelectedIndexChanged);
+            // 
             // Appointment_Management_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(868, 487);
+            this.ClientSize = new System.Drawing.Size(840, 440);
             this.Controls.Add(this.GroupBox_All);
             this.Name = "Appointment_Management_Form";
             this.Text = "Appointment_Management";
@@ -368,10 +368,10 @@
         private System.Windows.Forms.RadioButton F_radio_button;
         private System.Windows.Forms.TextBox Doctor_Name_Text;
         private System.Windows.Forms.TextBox Doctor_Speciality_Text;
-        private System.Windows.Forms.ListBox Doctor_Code_ListBox;
         private System.Windows.Forms.TextBox Patient_Name_Text;
-        private System.Windows.Forms.ListBox Patient_Code_ListBox;
         private System.Windows.Forms.DateTimePicker AppointmentTime;
         private System.Windows.Forms.DateTimePicker AppointmentDate;
+        private System.Windows.Forms.ComboBox Doctor_ComboBox;
+        private System.Windows.Forms.ComboBox Patient_ComboBox;
     }
 }
