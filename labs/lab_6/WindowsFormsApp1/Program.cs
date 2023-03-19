@@ -6,6 +6,7 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApp1
 {
+    //I didn't do form bcs I already did a lot this semester and the objective is to understand ADO.NET with db 
     internal static class Program
     {
         /// <summary>
@@ -16,7 +17,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new DB_First());
         }
     }
 }

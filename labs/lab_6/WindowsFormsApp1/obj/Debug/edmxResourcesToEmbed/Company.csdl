@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="DepartmentSet" EntityType="Model1.Department" />
+    <EntitySet Name="AddressSet" EntityType="Model1.Address" />
+    <EntitySet Name="ProjectSet" EntityType="Model1.Project" />
+    <EntitySet Name="EmployeeSet" EntityType="Model1.Employee" />
+    <AssociationSet Name="EmployeeDepartment" Association="Model1.EmployeeDepartment">
+      <End Role="Employee" EntitySet="EmployeeSet" />
+      <End Role="Department" EntitySet="DepartmentSet" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeAddress" Association="Model1.EmployeeAddress">
+      <End Role="Employee" EntitySet="EmployeeSet" />
+      <End Role="Address" EntitySet="AddressSet" />
+    </AssociationSet>
+    <AssociationSet Name="EmployeeProject" Association="Model1.EmployeeProject">
+      <End Role="Employee" EntitySet="EmployeeSet" />
+      <End Role="Project" EntitySet="ProjectSet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="DepartmentId" />
+    </Key>
+    <Property Name="DepartmentId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DepartmentName" Type="String" Nullable="false" />
+    <Property Name="ManagerId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Model1.EmployeeDepartment" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Address">
+    <Key>
+      <PropertyRef Name="AddressID" />
+    </Key>
+    <Property Name="AddressID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Addresse" Type="Non défini" Nullable="false" />
+    <Property Name="EmployeeId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Model1.EmployeeAddress" FromRole="Address" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Manager" BaseType="Model1.Employee">
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="DepartmentId" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Project">
+    <Key>
+      <PropertyRef Name="ProjectId" />
+    </Key>
+    <Property Name="ProjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ProjectName" Type="String" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" />
+    <NavigationProperty Name="Employee" Relationship="Model1.EmployeeProject" FromRole="Project" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Job" Type="String" Nullable="false" />
+    <Property Name="DepartmentId" Type="String" Nullable="false" />
+    <Property Name="ManagerId" Type="Int16" Nullable="false" />
+    <Property Name="HireDate" Type="DateTime" Nullable="false" />
+    <Property Name="salary" Type="Int32" Nullable="false" />
+    <Property Name="AddressId" Type="Int16" Nullable="false" />
+    <Property Name="ProjectId" Type="Int16" Nullable="false" />
+    <NavigationProperty Name="Department" Relationship="Model1.EmployeeDepartment" FromRole="Employee" ToRole="Department" />
+    <NavigationProperty Name="Address" Relationship="Model1.EmployeeAddress" FromRole="Employee" ToRole="Address" />
+    <NavigationProperty Name="Project" Relationship="Model1.EmployeeProject" FromRole="Employee" ToRole="Project" />
+  </EntityType>
+  <Association Name="EmployeeDepartment">
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <End Type="Model1.Department" Role="Department" Multiplicity="1" />
+  </Association>
+  <Association Name="EmployeeAddress">
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <End Type="Model1.Address" Role="Address" Multiplicity="1" />
+  </Association>
+  <Association Name="EmployeeProject">
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <End Type="Model1.Project" Role="Project" Multiplicity="*" />
+  </Association>
+</Schema>

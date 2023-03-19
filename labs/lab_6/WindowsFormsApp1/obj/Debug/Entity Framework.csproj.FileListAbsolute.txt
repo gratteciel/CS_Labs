@@ -1,0 +1,6 @@
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\Entity Framework.csproj.AssemblyReference.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\Entity Framework.csproj.SuggestedBindingRedirects.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DB_First.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\Entity Framework.csproj.GenerateResource.cache
+C:\Users\mitue\Documents\Ecole\ECE\ING4\Cours\S2\C#\labs\labs\lab_6\WindowsFormsApp1\obj\Debug\Entity Framework.csproj.CoreCompileInputs.cache
