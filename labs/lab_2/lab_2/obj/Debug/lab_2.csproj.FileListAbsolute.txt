@@ -1,0 +1,14 @@
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\bin\Debug\lab_2.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\bin\Debug\lab_2.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\obj\Debug\lab_2.csproj.AssemblyReference.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\obj\Debug\lab_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\obj\Debug\lab_2.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\lab_2\obj\Debug\lab_2.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\bin\Debug\lab_2.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\bin\Debug\lab_2.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\obj\Debug\lab_2.csproj.AssemblyReference.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\obj\Debug\lab_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\obj\Debug\lab_2.csproj.CoreCompileInputs.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\obj\Debug\lab_2.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\lab_2\lab_2\obj\Debug\lab_2.pdb

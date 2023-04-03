@@ -121,5 +121,10 @@ namespace Presentation_Layer
         {
 
         }
+
+        private void Students_Management_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

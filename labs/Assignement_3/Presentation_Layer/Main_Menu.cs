@@ -16,5 +16,36 @@ namespace Presentation_Layer
         {
             InitializeComponent();
         }
+
+        private void Main_Menu_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void managementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void studentsManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void gradesManagementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

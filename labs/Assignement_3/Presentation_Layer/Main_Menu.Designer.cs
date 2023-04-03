@@ -39,13 +39,15 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.managementToolStripMenuItem,
             this.consultationToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(834, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(1251, 35);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -55,42 +57,49 @@
             this.studentsManagementToolStripMenuItem,
             this.gradesManagementToolStripMenuItem});
             this.managementToolStripMenuItem.Name = "managementToolStripMenuItem";
-            this.managementToolStripMenuItem.Size = new System.Drawing.Size(90, 20);
+            this.managementToolStripMenuItem.Size = new System.Drawing.Size(133, 29);
             this.managementToolStripMenuItem.Text = "Management";
+            this.managementToolStripMenuItem.Click += new System.EventHandler(this.managementToolStripMenuItem_Click);
             // 
             // studentsManagementToolStripMenuItem
             // 
             this.studentsManagementToolStripMenuItem.Name = "studentsManagementToolStripMenuItem";
-            this.studentsManagementToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.studentsManagementToolStripMenuItem.Size = new System.Drawing.Size(293, 34);
             this.studentsManagementToolStripMenuItem.Text = "Students Management";
+            this.studentsManagementToolStripMenuItem.Click += new System.EventHandler(this.studentsManagementToolStripMenuItem_Click);
             // 
             // gradesManagementToolStripMenuItem
             // 
             this.gradesManagementToolStripMenuItem.Name = "gradesManagementToolStripMenuItem";
-            this.gradesManagementToolStripMenuItem.Size = new System.Drawing.Size(194, 22);
+            this.gradesManagementToolStripMenuItem.Size = new System.Drawing.Size(293, 34);
             this.gradesManagementToolStripMenuItem.Text = "Grades Management";
+            this.gradesManagementToolStripMenuItem.Click += new System.EventHandler(this.gradesManagementToolStripMenuItem_Click);
             // 
             // consultationToolStripMenuItem
             // 
             this.consultationToolStripMenuItem.Name = "consultationToolStripMenuItem";
-            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(87, 20);
+            this.consultationToolStripMenuItem.Size = new System.Drawing.Size(128, 29);
             this.consultationToolStripMenuItem.Text = "Consultation";
+            this.consultationToolStripMenuItem.Click += new System.EventHandler(this.consultationToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(55, 29);
             this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Main_Menu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(834, 457);
+            this.ClientSize = new System.Drawing.Size(1251, 703);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Main_Menu";
             this.Text = "Main_Menu";
+            this.Load += new System.EventHandler(this.Main_Menu_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

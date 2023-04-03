@@ -98,7 +98,7 @@ namespace MDI_Assignement
                             select d;
                 var result = query.FirstOrDefault();
 
-                //display the doctor's info 
+                //display the doctor's info data
                 if (result != null)
                 {
                     doctorName.Text = result.DoctorName;

@@ -1,0 +1,13 @@
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\bin\Debug\Grades_Management.exe.config
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\bin\Debug\Grades_Management.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\bin\Debug\Grades_Management.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.csproj.AssemblyReference.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.Properties.Resources.resources
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.csproj.GenerateResource.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.csproj.CoreCompileInputs.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.exe
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Grades_Management.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Presentation_Layer.Consultation.resources
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Presentation_Layer.Grades_Management_Form.resources
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Presentation_Layer.Main_Menu.resources
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\Grades_Management\obj\Debug\Presentation_Layer.Students_Management_Form.resources

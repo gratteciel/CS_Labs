@@ -1,0 +1,9 @@
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\bin\Debug\BL.dll
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\bin\Debug\BL.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\bin\Debug\Data_Layer.dll
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\bin\Debug\Data_Layer.pdb
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\obj\Debug\Business_Layer.csproj.AssemblyReference.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\obj\Debug\Business_Layer.csproj.CoreCompileInputs.cache
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\obj\Debug\Business_Layer.csproj.CopyComplete
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\obj\Debug\BL.dll
+C:\Users\mitue\OneDrive\Documents\ECE\ING4\Cours\S2\C#\CS_labs\labs\Assignement_3\Grades_Management\BL\obj\Debug\BL.pdb
