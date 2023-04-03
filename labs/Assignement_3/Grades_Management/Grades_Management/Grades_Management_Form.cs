@@ -166,7 +166,7 @@ namespace Presentation_Layer
 
         private void Grades_Management_Form_Load(object sender, EventArgs e)
         {
-            BusinessStudent business = new BusinessStudent();
+            BusinessGrades business = new BusinessGrades();
             PopulateComboBox();
             business.openConn();
         }
